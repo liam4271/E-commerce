@@ -1,0 +1,90 @@
+@font-face {
+  font-family: test;
+  src: url(../police/Supreme-Variable.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: test;
+}
+* body {
+  background-color: #131515;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+nav .seperation {
+  height: 3px;
+  width: 90%;
+  margin: auto;
+  background-color: #FFFAFB;
+  margin-top: -20px;
+}
+nav .navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  position: relative;
+}
+nav .navigation .menu {
+  margin-top: 30px;
+}
+nav .navigation .menu .user {
+  margin-left: 30px;
+}
+nav .navigation a {
+  text-decoration: none;
+  color: #FFFAFB;
+  font-size: 22px;
+  margin-top: 40px;
+}
+nav .navigation a:hover {
+  color: #339989;
+}
+
+.sectionbaseline {
+  overflow: hidden;
+}
+.sectionbaseline p {
+  font-weight: 600;
+  font-family: test;
+  font-size: 150px;
+  color: #FFFAFB;
+  text-align: center;
+}
+.sectionbaseline .pbaseline2 {
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -45px;
+  margin-bottom: -45px;
+}
+.sectionbaseline .pbaseline3 {
+  margin-top: -45px;
+}
+
+.categories {
+  margin-top: 200px;
+}
+.categories .circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  background-image: url(../media/img/img.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.categories .circle .explication {
+  float: right;
+  font-family: test;
+  font-weight: 600;
+  margin-right: 200px;
+  font-size: 75px;
+  margin-top: 150px;
+  color: #fffafb;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=Style.css.map */
